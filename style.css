@@ -1,0 +1,56 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    color:#7e86a3;
+    background-image: radial-gradient(#333 5%, transparent 0);
+    background-size: 35px 35px; 
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 5px;
+    border-color: #021147;
+    padding: 10px;
+}
+
+.logo {
+  max-width: 15%;
+  height: auto;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #c9c9c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1em;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.3s ease;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #dba0a2;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #880015;
+  color: white;
+}
